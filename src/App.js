@@ -56,10 +56,10 @@ function Food({ name, picture, rating }) {
   );
 }
 
-Food.prototypes = {
+Food.propTypes = {
   name: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
-  rating: PropTypes.string.isRequired,
+  rating: PropTypes.number.isRequired,
 };
 
 function App() {
