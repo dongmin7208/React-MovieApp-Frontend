@@ -7,7 +7,7 @@ class App extends React.Component {
     movies: [],
   };
   getMovies = async () => {
-    const movies = axios.get(
+    const movies = await axios.get(
       'https://yts-proxy.nomadcoders1.now.sh/list_movies.json',
     );
   };
