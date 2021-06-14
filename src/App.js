@@ -9,6 +9,7 @@ class App extends React.Component {
     setTimeout(() => {
       this.setState({ isLoading: false });
     }, 6000);
+    axios;
   }
   render() {
     const { isLoading } = this.state;
