@@ -28,6 +28,7 @@ class App extends React.Component {
           ? 'Loading....中'
           : movies.map((movie) => (
               <Movie
+                key={movie.id}
                 id={movie.id}
                 year={movie.year}
                 title={movie.title}
