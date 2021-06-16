@@ -1,8 +1,13 @@
 import React from 'react';
 
-function Detail(props) {
-  console.log(props);
-  return <span>Connection</span>;
+class Detail extends React.Component {
+  componentDidMount() {
+    const { location } = this.props;
+    console.log(location.state);
+  }
+  render() {
+    return <span>connection</span>;
+  }
 }
 
 export default Detail;
