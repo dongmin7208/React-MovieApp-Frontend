@@ -59,7 +59,7 @@ $ npm run build   <<json.scripts
 $ npm run deploy   <<json.scripts
 ```
 
-### 🔧 Main techniques used
+### 🔧Main techniques used
 
 | Name                                                                                                                    | Description                                |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
@@ -69,7 +69,7 @@ $ npm run deploy   <<json.scripts
 | [`map`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)                          | To use the received value.                 |
 | [`@media screen and`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Navigation.css) | Use for responsive web                     |
 
-### 🌐 API address
+### 🌐API address
 
 https://yts-proxy.now.sh/list_movies.json?sort_by=rating
 
