@@ -14,11 +14,10 @@ class Home extends React.Component {
         data: { movies },
       },
     } = await axios.get(
-      'https://yts-proxy.nomadcoders1.now.sh/list_movies.json?sort_by=rating',
+      'https://yts-proxy.now.sh/list_movies.json?sort_by=rating',
     );
     this.setState({ movies, isLoading: false });
   };
-
   componentDidMount() {
     this.getMovies();
   }
@@ -49,4 +48,5 @@ class Home extends React.Component {
     );
   }
 }
+
 export default Home;

@@ -17,4 +17,5 @@
 
 .about__container span:last-child {
   display: block;
-  margin-top
+  margin-top: 10px;
+}
