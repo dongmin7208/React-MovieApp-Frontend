@@ -18,21 +18,41 @@ You can see your code is reflected as soon as you saving the codes by running a 
 #### Run snowpack-dev-server
 
 [snowpack](https://www.snowpack.dev/) allows you to run a development server without bundling.
+node.js -v12.18.4
+npm -v 6.14.6
+Visual Studio code -v 1.57
+git -v 2.32.0.window.1
 
 ```sh
-$ npm run serve editor
+$ npm install npx -g
 ```
 
 ```sh
-$ npm run serve editor
+$ npx create-react-app movie_app_2021
 ```
 
 ```sh
-$ npm run serve editor
+$ npm start
 ```
 
 ```sh
-$ npm run serve editor
+$ npm i prop-types
+```
+
+```sh
+$ npm i axios
+```
+
+```sh
+$ npm i gh-pages
+```
+
+```sh
+$ npm run build   <<json.scripts
+```
+
+```sh
+$ npm run deploy   <<json.scripts
 ```
 
 ### 사용한 주요 기술
