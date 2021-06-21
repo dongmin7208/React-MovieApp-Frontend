@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import './Movie.css';
+import './movie.css';
 
 function Movie({ id, year, title, summary, poster, genres }) {
   return (
