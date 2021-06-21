@@ -5,21 +5,21 @@
 [kr로 이동합니다](./contents/kr/README.md)
 
 - [🗼Screen](#screen)
-- [📦 How to run](#how-to-run)
+- [📦How to run](#how-to-run)
 - [🔧Main techniques used](#main-techniques-used)
 - [🌐API address](#api-address)
 - [🔎Reference web link](#reference-web-link)
 - [🌏Web Support](#web-support)
 - [❗Realization](#realization)
 
-### 🗼 Screen
+### 🗼Screen
 
 ![FRONT](./image/H1lwabpdkX.gif)
 
 github,io Address
 https://dongmin7208.github.io/react-movieapp-frontend/#/
 
-#### 📦 How to run
+#### 📦How to run
 
 Development Environment Version
 node.js -v12.18.4
