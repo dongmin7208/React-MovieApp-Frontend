@@ -2,23 +2,27 @@
 
 ## 🚩 목차
 
-- 구현 화면
-- RUN 방법
-- 사용한 주요 기술
-- 사용한 API
-- 느낀점 과 다음 프로젝트
-- 참고 사이트
+[🎌 日本語](./contents/kr/README.md)
+[🗽ENG](./README.md)
 
-### :tokyo_tower: 구현화면
+- [🗼구현화면](#구현화면)
+- [📦실행방법](#실행방법)
+- [🔧사용한주요기술](#사용한주요기술)
+- [🌐API주소](#api주소)
+- [🔎참고사이트](#참고사이트)
+- [🌏웹지원](#웹지원)
+- [❗느낀점](#느낀점)
 
-![FRONT](/image/H1lwabpdkX.gif)
+### 🗼구현화면
 
-github,io 주소
+![FRONT](/image/movie.gif)
+
+사이트 보기
 https://dongmin7208.github.io/react-movieapp-frontend/#/
 
-#### :package: 실행 방법
+#### 📦실행방법
 
-개발 환경 버전
+개발환경 버전
 node.js -v12.18.4
 npm -v 6.14.6
 Visual Studio code -v 1.57
@@ -56,21 +60,21 @@ $ npm run build   <<json.scripts
 $ npm run deploy   <<json.scripts
 ```
 
-### :wrench: 사용한 주요 기술
+### 🔧사용한주요기술
 
-| Name                                                                                                                    | Description                                |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [`propTypes`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Movie.js)               | Type Error Prevention And For readability  |
-| [`HashRouter`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/App.js)                           | Router utilizing hash in URL               |
-| [`componentDidMount`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)            | For "component" and "Life Cycle.:recycle:" |
-| [`map`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)                          | To use the received value.                 |
-| [`@media screen and`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Navigation.css) | Use for responsive web                     |
+| 이름                                                                                                                    | 설명                          |
+| ----------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| [`propTypes`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Movie.js)               | 에러 확인가능                 |
+| [`HashRouter`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/App.js)                           | URL의 Hash를 활용한 라우터    |
+| [`componentDidMount`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)            | 컴포넌트의 생명주기:recycle:" |
+| [`map`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)                          | 가져온 데이터 담은역할        |
+| [`@media screen and`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Navigation.css) | 반응형을 위해                 |
 
-### :globe_with_meridians: 사용한 API 주소
+### 🌐API주소
 
 https://yts-proxy.now.sh/list_movies.json?sort_by=rating
 
-### :mag_right: 참고 사이트 링크
+## 🔎참고사이트
 
 :school: nomadcoders
 https://nomadcoders.co/
@@ -87,13 +91,14 @@ https://codingbroker.tistory.com/72
 :book: propTypes
 https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95
 
-## 🌏 브라우저 지원
+## 🌏웹지원
 
 | <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                               Yes                                                                                |                                                                                   11+                                                                                   |                                                                             Yes                                                                              |                                                                               Yes                                                                                |                                                                                Yes                                                                                 |
 
-:exclamation: 느낀점
+## ❗느낀점
+
 기초를 탄탄하게 만들기위해 반복하고 반복했다.
 재수강을 하면 할수록 놓쳤던 부분이 나오게되었고
 놓쳤던 부분을 공부하면 할수록 많은 배워야 할 것들로 자연스럽게 연결되었다.

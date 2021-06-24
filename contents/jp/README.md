@@ -1,24 +1,29 @@
 # Movie App 2021
 
-## 🚩 목차
+## 🚩 Table of Contents
 
-- 구현 화면
-- RUN 방법
-- 사용한 주요 기술
-- 사용한 API
-- 느낀점 과 다음 프로젝트
-- 참고 사이트
+[🇰🇷 한국어](./contents/kr/README.md)
+[🗽ENG](./README.md)
 
-### :tokyo_tower: 구현화면
+- [🗼 画面](#画面)
+- [📦 実行方法](#実行方法)
+- [🔧 使用した主な技術](#使用した主な技術)
+- [🌐 使用したエイピアイ](#使用したエイピアイ)
+- [🔎 参考サイト](#参考サイト)
+- [🌏 ウエブサポート](#ウエブサポート)
+- [❗ 感じたこと](#感じたこと)
 
-![FRONT](/image/H1lwabpdkX.gif)
+### 🗼 画面
 
-github,io 주소
+![FRONT](/image/movie.gif)
+
+github,io Address
 https://dongmin7208.github.io/react-movieapp-frontend/#/
 
-#### :package: 실행 방법
+#### 📦 実行方法
 
-개발 환경 버전
+開発環境バージョン
+
 node.js -v12.18.4
 npm -v 6.14.6
 Visual Studio code -v 1.57
@@ -56,9 +61,9 @@ $ npm run build   <<json.scripts
 $ npm run deploy   <<json.scripts
 ```
 
-### :wrench: 사용한 주요 기술
+### 🔧 使用した主な技術
 
-| Name                                                                                                                    | Description                                |
+| 名前                                                                                                                    | 説明                                       |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | [`propTypes`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Movie.js)               | Type Error Prevention And For readability  |
 | [`HashRouter`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/App.js)                           | Router utilizing hash in URL               |
@@ -66,11 +71,11 @@ $ npm run deploy   <<json.scripts
 | [`map`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)                          | To use the received value.                 |
 | [`@media screen and`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Navigation.css) | Use for responsive web                     |
 
-### :globe_with_meridians: 사용한 API 주소
+### 🌐 使用したエイピアイ
 
 https://yts-proxy.now.sh/list_movies.json?sort_by=rating
 
-### :mag_right: 참고 사이트 링크
+## 🔎 参考サイト
 
 :school: nomadcoders
 https://nomadcoders.co/
@@ -87,15 +92,16 @@ https://codingbroker.tistory.com/72
 :book: propTypes
 https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95
 
-## 🌏 브라우저 지원
+## ❗ ウエブサポート
 
 | <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                               Yes                                                                                |                                                                                   11+                                                                                   |                                                                             Yes                                                                              |                                                                               Yes                                                                                |                                                                                Yes                                                                                 |
 
-:exclamation: 느낀점
-기초를 탄탄하게 만들기위해 반복하고 반복했다.
-재수강을 하면 할수록 놓쳤던 부분이 나오게되었고
-놓쳤던 부분을 공부하면 할수록 많은 배워야 할 것들로 자연스럽게 연결되었다.
-응용을해서 내 것으로 완전히 만들기위해 나만의 포트폴리오를 만들예정이다.
-마음이 웅장하다.
+## ❗ 感じたこと
+
+基礎を固めるため繰り返し繰り返しました。
+再受講をすればするほど見逃していた部分が出てきて、
+逃がした部分を勉強すればするほどたくさん学ぶべきことに自然につながりました。
+応用して自分のものにするために自分のポートフォリオを作る予定です。
+心が雄大です。
