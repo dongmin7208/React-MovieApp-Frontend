@@ -2,8 +2,10 @@
 
 ## 🚩 Table of Contents
 
-[🎌 日本語](./contents/kr/README.md)
-[한국어](./contents/kr/README.md)
+| translation                            |
+| -------------------------------------- |
+| [`🎌 日本語`](./contents/jp/README.md) |
+| [`🇰🇷 한국어`](./contents/kr/README.md) |
 
 - [🗼Screen](#screen)
 - [📦How to run](#how-to-run)
