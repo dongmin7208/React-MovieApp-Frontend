@@ -19,16 +19,14 @@
 
 ![FRONT](/image/movie.gif)
 
-github,io Address
-https://dongmin7208.github.io/react-movieapp-frontend/#/
+github,io Address[`🔗`](https://dongmin7208.github.io/react-movieapp-frontend/#/)
 
 #### 📦 実行方法
 
-開発環境バージョン
-
-node.js -v12.18.4
-npm -v 6.14.6
-Visual Studio code -v 1.57
+開発環境バージョン  
+node.js -v12.18.4  
+npm -v 6.14.6  
+Visual Studio code -v 1.57  
 git -v 2.32.0.window.1
 
 ```sh
@@ -75,24 +73,19 @@ $ npm run deploy   <<json.scripts
 
 ### 🌐 使用したエイピアイ
 
-https://yts-proxy.now.sh/list_movies.json?sort_by=rating
+# [`💻`](https://yts-proxy.now.sh/list_movies.json?sort_by=rating)
 
 ## 🔎 参考サイト
 
-:school: nomadcoders
-https://nomadcoders.co/
+:school: [`nomadcoders`](https://nomadcoders.co/)
 
-:book: React Life Cycle
-https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8
+:book: [`React Life Cycle`](https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8)
 
-:book: Responsive Web
-https://velog.io/@leeeeunz/TIL-13.-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-Media-Query
+:book: [`Responsive Web`](https://velog.io/@leeeeunz/TIL-13.-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-Media-Query)
 
-:book: HashRouter And BrowserRouter
-https://codingbroker.tistory.com/72
+:book: [`HashRouter And BrowserRouter`](https://codingbroker.tistory.com/72)
 
-:book: propTypes
-https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95
+:book: [`propTypes`](https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95)
 
 ## ❗ ウエブサポート
 
@@ -102,8 +95,8 @@ https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%
 
 ## ❗ 感じたこと
 
-基礎を固めるため繰り返し繰り返しました。
-再受講をすればするほど見逃していた部分が出てきて、
-逃がした部分を勉強すればするほどたくさん学ぶべきことに自然につながりました。
-応用して自分のものにするために自分のポートフォリオを作る予定です。
+基礎を固めるため繰り返し繰り返しました。  
+再受講をすればするほど見逃していた部分が出てきて、  
+逃がした部分を勉強すればするほどたくさん学ぶべきことに自然につながりました。  
+応用して自分のものにするために自分のポートフォリオを作る予定です。  
 心が雄大です。

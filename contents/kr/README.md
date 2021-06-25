@@ -19,15 +19,14 @@
 
 ![FRONT](/image/movie.gif)
 
-사이트 보기
-https://dongmin7208.github.io/react-movieapp-frontend/#/
+사이트 보기 [`🔗`](https://dongmin7208.github.io/react-movieapp-frontend/#/)
 
 #### 📦실행방법
 
-개발환경 버전
-node.js -v12.18.4
-npm -v 6.14.6
-Visual Studio code -v 1.57
+개발환경 버전  
+node.js -v12.18.4  
+npm -v 6.14.6  
+Visual Studio code -v 1.57  
 git -v 2.32.0.window.1
 
 ```sh
@@ -74,24 +73,19 @@ $ npm run deploy   <<json.scripts
 
 ### 🌐API주소
 
-https://yts-proxy.now.sh/list_movies.json?sort_by=rating
+# [`💻`](https://yts-proxy.now.sh/list_movies.json?sort_by=rating)
 
 ## 🔎참고사이트
 
-:school: nomadcoders
-https://nomadcoders.co/
+:school: [`nomadcoders`](https://nomadcoders.co/)
 
-:book: React Life Cycle
-https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8
+:book: [`React Life Cycle`](https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8)
 
-:book: Responsive Web
-https://velog.io/@leeeeunz/TIL-13.-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-Media-Query
+:book: [`Responsive Web`](https://velog.io/@leeeeunz/TIL-13.-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-Media-Query)
 
-:book: HashRouter And BrowserRouter
-https://codingbroker.tistory.com/72
+:book: [`HashRouter And BrowserRouter`](https://codingbroker.tistory.com/72)
 
-:book: propTypes
-https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95
+:book: [`propTypes`](https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95)
 
 ## 🌏웹지원
 
@@ -101,8 +95,9 @@ https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%
 
 ## ❗느낀점
 
-기초를 탄탄하게 만들기위해 반복하고 반복했다.
-재수강을 하면 할수록 놓쳤던 부분이 나오게되었고
-놓쳤던 부분을 공부하면 할수록 많은 배워야 할 것들로 자연스럽게 연결되었다.
-응용을해서 내 것으로 완전히 만들기위해 나만의 포트폴리오를 만들예정이다.
-마음이 웅장하다.
+기초를 탄탄하게 만들기위해 반복하고 반복했다.  
+재수강을 하면 할수록 놓쳤던 부분이 나오게되었고  
+놓쳤던 부분을 공부하면 할수록 많은 배워야 할 것들로 자연스럽게 연결되었다.  
+응용을해서 내 것으로 완전히 만들기위해 나만의 포트폴리오를 만들예정이다.  
+마음이 웅장하다.  
+

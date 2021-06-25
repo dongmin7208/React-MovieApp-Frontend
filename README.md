@@ -19,15 +19,14 @@
 
 ![FRONT](./image/movie.gif)
 
-github,io Address
-https://dongmin7208.github.io/react-movieapp-frontend/#/
+github,io Address [`🔗`](https://dongmin7208.github.io/react-movieapp-frontend/#/)
 
 #### 📦How to run
 
-Development Environment Version
-node.js -v12.18.4
-npm -v 6.14.6
-Visual Studio code -v 1.57
+Development Environment Version  
+node.js -v12.18.4  
+npm -v 6.14.6  
+Visual Studio code -v 1.57  
 git -v 2.32.0.window.1
 
 ```sh
@@ -74,24 +73,19 @@ $ npm run deploy   <<json.scripts
 
 ### 🌐API address
 
-https://yts-proxy.now.sh/list_movies.json?sort_by=rating
+# [`💻`](https://yts-proxy.now.sh/list_movies.json?sort_by=rating)
 
 ## 🔎Reference web link
 
-:school: nomadcoders
-https://nomadcoders.co/
+:school: [`nomadcoders`](https://nomadcoders.co/)
 
-:book: React Life Cycle
-https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8
+:book: [`React Life Cycle`](https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8)
 
-:book: Responsive Web
-https://velog.io/@leeeeunz/TIL-13.-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-Media-Query
+:book: [`Responsive Web`](https://velog.io/@leeeeunz/TIL-13.-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-Media-Query)
 
-:book: HashRouter And BrowserRouter
-https://codingbroker.tistory.com/72
+:book: [`HashRouter And BrowserRouter`](https://codingbroker.tistory.com/72)
 
-:book: propTypes
-https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95
+:book: [`propTypes`](https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95)
 
 ## 🌏Web Support
 
@@ -101,9 +95,9 @@ https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%
 
 ## ❗Realization
 
-Repeat for the foundation.
-The more I repeated, the more I didn't know.
-So I started to study more.
-I'll apply it and I'll keep it.
-I'm going to make my portfolio.
+Repeat for the foundation.  
+The more I repeated, the more I didn't know.  
+So I started to study more.  
+I'll apply it and I'll keep it.  
+I'm going to make my portfolio.  
 I feel better.
