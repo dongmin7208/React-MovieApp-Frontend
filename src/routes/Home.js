@@ -1,21 +1,15 @@
 import React from 'react';
 import axios from 'axios';
+import ClipLoader from "react-spinners/ClipLoader";
 import Movie from '../components/Movie';
-import './home.css';
+import './Home.css';
 
 class Home extends React.Component {
   state = {
     isLoading: true,
     movies: [],
   };
-  getMovies = async () => {
-    const {
-      data: {
-        data: { movies },
-      },
-    } = await axios.get(
-      'https://yts-proxy.now.sh/list_movies.json?sort_by=rating',
-    );
+  getMovies = async () => {const {data: {data: { movies },},} = await axios.get('https://yts-proxy.now.sh/list_movies.json?sort_by=rating',);
     this.setState({ movies, isLoading: false });
   };
   componentDidMount() {
@@ -27,7 +21,9 @@ class Home extends React.Component {
       <section className="container">
         {isLoading ? (
           <div className="loader">
-            <span className="loader__text">Loading...</span>
+            <span className="loader__text">
+              <ClipLoader color={'#0008fc'} loading={isLoading} size={48} />
+            </span>
           </div>
         ) : (
           <div className="movies">

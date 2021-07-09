@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import './movie.css';
+import './Movie.css';
 
 function Movie({ id, year, title, summary, poster, genres }) {
   return (
@@ -10,6 +10,7 @@ function Movie({ id, year, title, summary, poster, genres }) {
         to={{
           pathname: `/movie/${id}`,
           state: {
+            id,
             year,
             title,
             summary,
