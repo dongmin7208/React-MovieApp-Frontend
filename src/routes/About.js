@@ -5,10 +5,10 @@ function About() {
   return (
     <div className="about__container">
       <span>
-        “Freedom is the freedom to say that two plus two make four. If that is
-        granted, all else follows.”
+        ヴィクトル・ユゴーの名言
+      "どんなに暗い夜でもいつかは終わる。そして太陽が昇るんだ"
       </span>
-      <span>− George Orwell, 1984</span>
+      <span>− レ・ミゼラブル -1862年</span>
     </div>
   );
 }

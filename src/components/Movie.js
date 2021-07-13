@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './Movie.css';
 
-function Movie({ id, year, title, summary, poster, genres }) {
+function Movie({ id, year, title, summary,slug, poster, genres, date_uploaded, rating, runtime, title_long, language}) {
   return (
     <div className="movie">
       <Link
         to={{
-          pathname: `/movie/${id}`,
+          pathname: `/movie/${slug}`,
           state: {
             id,
             year,
@@ -16,12 +16,19 @@ function Movie({ id, year, title, summary, poster, genres }) {
             summary,
             poster,
             genres,
+            slug,
+            date_uploaded,
+            rating,
+            runtime,
+            title_long,
+            language,
+            
           },
         }}
       >
         <img src={poster} alt={title} title={title} />
         <div className="movie__data">
-          <h3 className="movie__title">{title}</h3>
+          <h3 className="movie__title">{title} </h3>
           <h5 className="movie__year">{year}</h5>
           <ul className="movie__genres">
             {genres.map((genre, index) => (
@@ -30,8 +37,10 @@ function Movie({ id, year, title, summary, poster, genres }) {
               </li>
             ))}
           </ul>
-          <p className="movie__summary">{summary.slice(0, 180)}...</p>
+          <p className="movie__summary">{summary.slice(0, 150)}...</p>
         </div>
+
+      
       </Link>
     </div>
   );
@@ -44,6 +53,12 @@ Movie.propTypes = {
   summary: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
+  date_uploaded: PropTypes.number.isRequired,
+  rating: PropTypes.number.isRequired,
+  runtime: PropTypes.number.isRequired,
+  title_long: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
+  
 };
 
 export default Movie;

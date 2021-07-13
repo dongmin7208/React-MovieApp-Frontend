@@ -1,6 +1,6 @@
 import React from 'react';
 import Movie from '../components/Movie';
-import './Home.css';
+import './Detail.css';
 
 class Detail extends React.Component {
 
@@ -25,8 +25,23 @@ class Detail extends React.Component {
               summary={location.state.summary}
               poster={location.state.poster}
               genres={location.state.genres}
+              
+              date_uploaded={location.state.date_uploaded}
+              title_long={location.state.title_long}
+              rating={location.state.rating}
+              runtime={location.state.runtime}
+              language={location.state.language}
             />
           </div>
+          <div className="movies__detail">
+            <p>[応用] - より詳しい項目list(cssなし)</p>
+            <h1>アップロード日付:{location.state.date_uploaded}</h1>
+            <h2>詳しいタイトル:{location.state.title_long}</h2>
+            <h3>点数:{location.state.rating}</h3>
+              <h4>上映時間:{location.state.runtime}</h4>
+              <h4>映画国家言語:{location.state.language}</h4>
+          </div>
+          
         </section>
       )
     } else {
