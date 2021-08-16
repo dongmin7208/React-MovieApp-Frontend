@@ -1,69 +1,40 @@
 # Movie App 2021
 
-## 🚩 Table of Contents
+## 🚩 目次
 
-| translation                            |
-| -------------------------------------- |
-| [`🎌 日本語`](./contents/jp/README.md) |
-| [`🇰🇷 한국어`](./contents/kr/README.md) |
+- 🗼[画面](#-画面)
+- [📦 実行方法](#-実行方法)
+- [🔧 使用した主な技術](#-使用した主な技術)
+- [🌐 使用したエイピアイ](#-使用したエイピアイ)
+- [🔎 参考サイト](#-参考サイト)
+- [🌏 ウエブサポート](#-ウエブサポート)
+- [❗ 感じたこと](#-感じたこと)
 
-- [🗼Screen](#screen)
-- [📦How to run](#how-to-run)
-- [🔧Main techniques used](#main-techniques-used)
-- [🌐API address](#api-address)
-- [🔎Reference web link](#reference-web-link)
-- [🌏Web Support](#web-support)
-- [❗Realization](#realization)
+### 🗼 画面
 
-### 🗼Screen+
+![FRONT](/image/movie.gif)
 
-![FRONT](./image/movie.gif)
+github,io Address[`🔗`](https://dongmin7208.github.io/react-movieapp-frontend/#/)
 
-github,io Address [`🔗`](https://dongmin7208.github.io/react-movieapp-frontend/#/)
+#### 📦 実行方法
 
-#### 📦How to run
-
-Development Environment Version  
+開発環境バージョン  
 node.js -v12.18.4  
 npm -v 6.14.6  
 Visual Studio code -v 1.57  
 git -v 2.32.0.window.1
 
 ```sh
-$ npm install npx -g
-```
-
-```sh
-$ npx create-react-app movie_app_2021
+$ npm i
 ```
 
 ```sh
 $ npm start
 ```
 
-```sh
-$ npm i prop-types
-```
+### 🔧 使用した主な技術
 
-```sh
-$ npm i axios
-```
-
-```sh
-$ npm i gh-pages
-```
-
-```sh
-$ npm run build   <<json.scripts
-```
-
-```sh
-$ npm run deploy   <<json.scripts
-```
-
-### 🔧Main techniques used
-
-| Name                                                                                                                    | Description                                |
+| 名前                                                                                                                    | 説明                                       |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | [`propTypes`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Movie.js)               | Type Error Prevention And For readability  |
 | [`HashRouter`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/App.js)                           | Router utilizing hash in URL               |
@@ -71,11 +42,11 @@ $ npm run deploy   <<json.scripts
 | [`map`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)                          | To use the received value.                 |
 | [`@media screen and`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Navigation.css) | Use for responsive web                     |
 
-### 🌐API address
+### 🌐 使用したエイピアイ
 
-# [`💻`](https://yts-proxy.now.sh/list_movies.json?sort_by=rating)
+# [`💻`](https://yts-proxy.now.sh/list_movies.json?sort_by=rating)　リンク
 
-## 🔎Reference web link
+## 🔎 参考サイト
 
 :school: [`nomadcoders`](https://nomadcoders.co/)
 
@@ -87,17 +58,15 @@ $ npm run deploy   <<json.scripts
 
 :book: [`propTypes`](https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95)
 
-## 🌏Web Support
+## ❗ ウエブサポート
 
 | <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                               Yes                                                                                |                                                                                   11+                                                                                   |                                                                             Yes                                                                              |                                                                               Yes                                                                                |                                                                                Yes                                                                                 |
 
-## ❗Realization
+## ❗ 感じたこと
 
-Repeat for the foundation.  
-The more I repeated, the more I didn't know.  
-So I started to study more.  
-I'll apply it and I'll keep it.  
-I'm going to make my portfolio.  
-I feel better.
+基礎を固めるため繰り返し繰り返しました。  
+再受講をすればするほど忘れた部分が出ました。  
+逃がした部分を勉強すればするほどたくさん学ぶべきことに自然につながりました。  
+応用して自分のものにするために Detail のページを応用しました。
